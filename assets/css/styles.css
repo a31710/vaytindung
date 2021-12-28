@@ -177,7 +177,7 @@
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  
+  overflow: scroll;
 }
 #popup:target {
   visibility: visible;
@@ -193,7 +193,7 @@
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
   transition: all 1s;
-
+  overflow: scroll;
 }
 .iframe{
   width: 640px;
@@ -237,11 +237,12 @@ a.popup-close {
     padding: 30px 0 0 0 !important;
     height: 100%;
     margin: 0;
+    overflow: scroll;
   }
   .iframe{
     width: 360px;
     min-height: 1000px;
-  
+    overflow: scroll;
   }
   a.popup-close {
     font-size: 22px;
@@ -254,9 +255,9 @@ a.popup-close {
   }
   .bt-img{
     width: 100vw;
-    height: 100px;
+    height: auto;
+    overflow: hidden;
   }
-  
 }
 
 
