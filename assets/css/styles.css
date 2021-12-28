@@ -253,7 +253,8 @@ a.popup-close {
     font-size: 10px;
   }
   .bt-img{
- 
+    width: 100vw;
+    height: 100px;
   }
   
 }
