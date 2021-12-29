@@ -258,6 +258,12 @@ a.popup-close {
     height: auto;
     overflow: hidden;
   }
+  .logoB{
+    width: 160px !important;
+    height: 15px;
+
+  }
+
 }
 
 
