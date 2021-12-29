@@ -223,6 +223,11 @@ a.popup-close {
   
   
 }
+.logoB{
+  width: 250px;
+  height: 33px;
+
+}
 @media (min-width: 768px) {
   .popup-container {
     width: 700px;
@@ -259,9 +264,7 @@ a.popup-close {
     overflow: hidden;
   }
   .logoB{
-    width: 160px !important;
-    height: 15px;
-
+    width: 160px;
   }
 
 }
